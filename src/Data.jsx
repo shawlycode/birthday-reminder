@@ -1,14 +1,32 @@
 export default [
     {
         Id: 234,
-        name:"micky",
+        name:"Micky",
         age: 2,
-        image:'face.jpg'
+        Image:'img-1jpeg'
     },
     {
         Id: 234,
-        name:"micky",
-        age: 2,
-        image:'gift.jpg'
+        name:"Orlando",
+        age: 30,
+        Image:'gift.jpg'
+    },
+    {
+        Id: 234,
+        name:"Orlando",
+        age: 30,
+        Image:'gift.jpg'
+    },
+    {
+        Id: 234,
+        name:"Orlando",
+        age: 30,
+        Image:'gift.jpg'
+    },
+    {
+        Id: 234,
+        name:"Orlando",
+        age: 30,
+        Image:'gift.jpg'
     },
 ];

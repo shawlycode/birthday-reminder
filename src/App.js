@@ -9,6 +9,7 @@ function App() {
    <main>
      <section className="container">
        <h2>{people.length } birthdays today</h2>
+       <hr/>
        <List people={people}/>
        <button onClick={()=>setPeople([])}>
          Clear All
