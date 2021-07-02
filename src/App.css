@@ -4,3 +4,24 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  background-color: papayawhip;
+  max-width: 300px;
+  max-height: fit-content;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: rgb(112, 75, 75);
+}
+button{
+  background-color: fuchsia;
+  width: 200px;
+  height: 4vh;
+  border: none;
+  outline-style: none;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
