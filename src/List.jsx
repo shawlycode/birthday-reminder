@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./images/img-1.jpeg";
+import image from "./images/gift.jpg";
 
 const List = ({ people }) => {
   return (

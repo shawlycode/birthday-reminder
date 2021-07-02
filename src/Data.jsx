@@ -23,10 +23,4 @@ export default [
         age: 30,
         Image:'gift.jpg'
     },
-    {
-        Id: 234,
-        name:"Orlando",
-        age: 30,
-        Image:'gift.jpg'
-    },
 ];
