@@ -1,11 +1,13 @@
-import React ,{useState} from 'react'
+import React  from 'react';
+import image from'./images/face.jpg'
 
 const List = ({people}) =>{
     return (
         <>
            {people.map((person)=>{
-               const { Id,name,age,image} = person;
-               return <article key={Id} className="person">
+               const {Id, name, age, Image} = person;
+               return(
+                    <article key={Id} className="person">
                    <img src={image} alt={name} />
                    <div>
                        <h4>{name}</h4>
@@ -13,9 +15,10 @@ const List = ({people}) =>{
                    </div>
 
                </article>
+               );
            })}
         </>
-    )
-}
+    );
+};
 
-export default List
+export default List;
